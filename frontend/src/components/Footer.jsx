@@ -24,7 +24,7 @@ export const Footer = () => {
           <ul className="space-y-2">
             <li><a href="#about" className="hover:underline">Careers</a></li>
             <li><a href="#blog" className="hover:underline">Marketplace Blog</a></li>
-            <li><a href="#investors" className="hover:underline">About Amazon Multi-Vendor</a></li>
+            <li><a href="#investors" className="hover:underline">About VishalMart Multi-Vendor</a></li>
             <li><a href="#sustainability" className="hover:underline">Sustainable Commerce</a></li>
           </ul>
         </div>
@@ -32,7 +32,7 @@ export const Footer = () => {
         <div>
           <h4 className="font-bold text-white text-sm mb-3">Make Money with Us</h4>
           <ul className="space-y-2">
-            <li><Link to="/register?role=ADMIN" className="hover:underline text-amber-300 font-medium">Sell on Amazon Marketplace</Link></li>
+            <li><Link to="/register?role=ADMIN" className="hover:underline text-amber-300 font-medium">Sell on VishalMart</Link></li>
             <li><a href="#affiliate" className="hover:underline">Become an Affiliate</a></li>
             <li><a href="#advertise" className="hover:underline">Advertise Your Products</a></li>
             <li><a href="#publish" className="hover:underline">Self-Publish with Us</a></li>
@@ -42,10 +42,10 @@ export const Footer = () => {
         <div>
           <h4 className="font-bold text-white text-sm mb-3">Payment Products</h4>
           <ul className="space-y-2">
-            <li><a href="#businesscard" className="hover:underline">Amazon Business Card</a></li>
+            <li><a href="#businesscard" className="hover:underline">VishalMart Business Card</a></li>
             <li><a href="#points" className="hover:underline">Shop with Points</a></li>
             <li><a href="#reload" className="hover:underline">Reload Your Balance</a></li>
-            <li><a href="#currency" className="hover:underline">Amazon Currency Converter</a></li>
+            <li><a href="#currency" className="hover:underline">VishalMart Currency Converter</a></li>
           </ul>
         </div>
 
@@ -66,7 +66,7 @@ export const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div className="flex items-center gap-3">
             <span className="text-xl font-black text-white tracking-tight">
-              amazon<span className="text-[#febd69] font-normal text-xs ml-1">marketplace</span>
+              vishal<span className="text-[#febd69] font-normal text-xs ml-1">mart</span>
             </span>
             <div className="flex items-center gap-1.5 border border-gray-600 rounded px-2.5 py-1 text-[11px] text-gray-300">
               <Globe className="w-3.5 h-3.5" />
@@ -80,7 +80,7 @@ export const Footer = () => {
           </div>
 
           <p className="text-[11px] text-gray-400">
-            © 2026 Amazon-Style Multi-Vendor Marketplace. Full-Stack Demo.
+            © 2026 VishalMart Multi-Vendor Marketplace. Full-Stack Demo.
           </p>
         </div>
       </div>

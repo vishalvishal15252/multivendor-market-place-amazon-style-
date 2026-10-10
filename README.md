@@ -1,4 +1,4 @@
-# Multi-Vendor E-Commerce Marketplace (Amazon-Style)
+# VishalMart - Multi-Vendor E-Commerce Marketplace
 
 A production-grade, full-stack multi-vendor marketplace web platform built with **Spring Boot 3 (Java 17/21)**, **PostgreSQL**, **Spring Security (JWT + 2FA OTP)**, and **React (Vite + Tailwind CSS)**.
 
@@ -127,8 +127,8 @@ Make sure PostgreSQL is running on your system (Default port `5432`).
 - **Two-Step Login**: Email + Password &rarr; Server sends 6-digit OTP (expires in 5 minutes, max 3 attempts) &rarr; Enter OTP &rarr; Issues HMAC-SHA256 JWT.
 - **Role-Based Guards**: Admin portal (`/api/admin/**` and `/admin`) is accessible only to users with role `ADMIN`.
 
-### 2. Amazon-Style Storefront
-- **Top Navigation**: Logo with Amazon smile accent, delivery address, multi-department search bar with category filter, account & lists dropdown, cart with badge counter.
+### 2. VishalMart Storefront
+- **Top Navigation**: Logo with accent, delivery address, multi-department search bar with category filter, account & lists dropdown, cart with badge counter.
 - **Catalog & Filters**: Promotional banner carousel, department cards, filter sidebar (categories, price bands, vendor brands, sort orders).
 - **Product Details & Buy Box**: High-res imagery, rating stars, Prime badge, urgency stock indicators, quantity selector, "Add to Cart", and "Buy Now".
 - **Cart & Subtotal**: Free shipping progress indicator, quantity stepper, real-time total calculator.

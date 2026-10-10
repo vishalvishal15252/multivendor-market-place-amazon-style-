@@ -212,7 +212,7 @@ export const ProductDetail = () => {
               <div className="grid grid-cols-3 gap-2 pt-4 border-t text-center text-[11px] text-gray-600">
                 <div className="flex flex-col items-center p-2 rounded-lg bg-gray-50">
                   <Truck className="w-5 h-5 text-amazon-blue mb-1" />
-                  <span>Amazon Delivered</span>
+                  <span>VishalMart Delivered</span>
                 </div>
                 <div className="flex flex-col items-center p-2 rounded-lg bg-gray-50">
                   <RotateCcw className="w-5 h-5 text-amazon-blue mb-1" />
@@ -298,7 +298,7 @@ export const ProductDetail = () => {
               <div className="text-[11px] space-y-1 pt-3 border-t text-gray-500">
                 <div className="flex justify-between">
                   <span>Ships from</span>
-                  <span className="text-gray-900 font-medium">Amazon Fulfillment</span>
+                  <span className="text-gray-900 font-medium">VishalMart Fulfillment</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Sold by</span>

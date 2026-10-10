@@ -414,7 +414,7 @@ export const AdminDashboard = () => {
             </div>
             <div>
               <h1 className="text-xl font-black tracking-tight text-white flex items-center gap-1.5">
-                Amazon Marketplace <span className="text-amber-400 font-medium text-xs bg-amber-400/10 border border-amber-400/30 px-2 py-0.5 rounded">Admin Portal</span>
+                VishalMart <span className="text-amber-400 font-medium text-xs bg-amber-400/10 border border-amber-400/30 px-2 py-0.5 rounded">Admin Portal</span>
               </h1>
               <p className="text-xs text-gray-400">Complete multi-vendor catalog, orders, and merchant management</p>
             </div>

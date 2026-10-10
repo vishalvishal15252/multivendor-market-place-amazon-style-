@@ -183,7 +183,7 @@ export const MyOrders = () => {
                         {order.status === 'DELIVERED'
                           ? 'Package was handed to resident'
                           : order.status === 'SHIPPED'
-                          ? 'In transit with Amazon Express Carrier'
+                          ? 'In transit with VishalMart Express Carrier'
                           : order.status === 'CANCELLED'
                           ? 'This order has been cancelled'
                           : 'Preparing for dispatch by merchant'}

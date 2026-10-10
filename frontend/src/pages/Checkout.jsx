@@ -133,7 +133,7 @@ export const Checkout = () => {
       <div className="flex items-center justify-between border-b border-gray-300 pb-4 mb-8">
         <Link to="/" className="flex items-center gap-1">
           <span className="text-2xl font-black tracking-tight text-gray-900">
-            amazon<span className="text-[#febd69] font-normal text-sm ml-0.5">checkout</span>
+            vishal<span className="text-[#febd69] font-normal text-sm ml-0.5">mart</span>
           </span>
         </Link>
         <div className="flex items-center gap-2 text-gray-600 text-xs font-semibold">
@@ -411,7 +411,7 @@ export const Checkout = () => {
           </button>
 
           <p className="text-[11px] text-gray-500 text-center leading-tight">
-            By placing your order, you agree to Amazon's privacy notice and conditions of use.
+            By placing your order, you agree to VishalMart's privacy notice and conditions of use.
           </p>
 
           <div className="border-t pt-4 space-y-2 text-xs">

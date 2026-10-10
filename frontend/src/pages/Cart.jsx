@@ -42,7 +42,7 @@ export const Cart = () => {
           <div className="w-20 h-20 bg-amber-50 rounded-full flex items-center justify-center mx-auto mb-4 text-[#f08804]">
             <ShoppingBag className="w-10 h-10" />
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Your Amazon Cart is empty</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Your VishalMart Cart is empty</h2>
           <p className="text-sm text-gray-500 mb-6">
             Your shopping cart is waiting. Give it purpose — fill it with electronics, clothing, books, and more from verified marketplace vendors.
           </p>
@@ -245,9 +245,9 @@ export const Cart = () => {
           <div className="pt-4 border-t space-y-2 text-[11px] text-gray-500">
             <div className="flex items-center gap-2 text-gray-700 font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
-              <span>Amazon A-to-Z Safe Guarantee</span>
+              <span>VishalMart A-to-Z Safe Guarantee</span>
             </div>
-            <p>Every purchase from marketplace vendors is protected by Amazon 100% money back guarantee.</p>
+            <p>Every purchase from marketplace vendors is protected by VishalMart 100% money back guarantee.</p>
           </div>
         </div>
       </div>

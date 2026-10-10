@@ -12,8 +12,8 @@
     <groupId>com.mvecm</groupId>
     <artifactId>mvecm-backend</artifactId>
     <version>1.0.0</version>
-    <name>mvecm-backend</name>
-    <description>Multi-Vendor E-Commerce Marketplace Backend</description>
+    <name>vishalmart-backend</name>
+    <description>VishalMart Multi-Vendor E-Commerce Marketplace Backend</description>
 
     <properties>
         <java.version>17</java.version>

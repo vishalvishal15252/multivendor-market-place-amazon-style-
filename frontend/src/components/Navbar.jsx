@@ -51,7 +51,7 @@ export const Navbar = () => {
         <Link to="/" className="flex items-center gap-1 py-1 px-2 border border-transparent hover:border-white rounded transition-colors flex-shrink-0">
           <div className="flex flex-col">
             <span className="text-xl md:text-2xl font-black tracking-tight text-white flex items-center">
-              amazon<span className="text-[#febd69] font-normal text-sm ml-0.5">marketplace</span>
+              vishal<span className="text-[#febd69] font-normal text-sm ml-0.5">mart</span>
             </span>
             <div className="h-1 w-full bg-gradient-to-r from-transparent via-[#febd69] to-transparent rounded-full -mt-0.5"></div>
           </div>
@@ -88,7 +88,7 @@ export const Navbar = () => {
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search Amazon Marketplace..."
+              placeholder="Search VishalMart..."
               className="flex-1 bg-white text-gray-900 text-sm px-3 py-2 outline-none w-full"
             />
 

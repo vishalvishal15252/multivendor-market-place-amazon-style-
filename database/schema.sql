@@ -1,5 +1,4 @@
--- ========================================================
--- MULTI-VENDOR E-COMMERCE MARKETPLACE (AMAZON-STYLE)
+-- VISHALMART - MULTI-VENDOR E-COMMERCE MARKETPLACE
 -- PostgreSQL Database Schema
 -- ========================================================
 

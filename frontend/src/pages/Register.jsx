@@ -56,11 +56,11 @@ export const Register = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8">
       <Toast message={toast.message} type={toast.type} onClose={() => setToast({ message: '', type: 'info' })} />
 
-      {/* Amazon Logo Header */}
+      {/* VishalMart Logo Header */}
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center mb-6">
         <Link to="/" className="inline-block">
           <span className="text-3xl font-black tracking-tight text-gray-900">
-            amazon<span className="text-[#febd69] font-normal text-lg ml-0.5">marketplace</span>
+            vishal<span className="text-[#febd69] font-normal text-lg ml-0.5">mart</span>
           </span>
         </Link>
       </div>
@@ -69,7 +69,7 @@ export const Register = () => {
         <div className="bg-white py-8 px-6 shadow-md rounded-xl border border-gray-200 sm:px-10">
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Create Account</h2>
           <p className="text-xs text-gray-500 mb-6">
-            Join the Amazon multi-vendor shopping platform as a Customer or Store Administrator.
+            Join the VishalMart multi-vendor shopping platform as a Customer or Store Administrator.
           </p>
 
           <form onSubmit={handleRegister} className="space-y-4 text-xs">

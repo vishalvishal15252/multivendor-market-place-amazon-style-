@@ -136,11 +136,11 @@ export const Login = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 px-4 sm:px-6 lg:px-8">
       <Toast message={toast.message} type={toast.type} onClose={() => setToast({ message: '', type: 'info' })} />
 
-      {/* Amazon Logo Header */}
+      {/* VishalMart Logo Header */}
       <div className="sm:mx-auto sm:w-full sm:max-w-md text-center mb-6">
         <Link to="/" className="inline-block">
           <span className="text-3xl font-black tracking-tight text-gray-900">
-            amazon<span className="text-[#febd69] font-normal text-lg ml-0.5">marketplace</span>
+            vishal<span className="text-[#febd69] font-normal text-lg ml-0.5">mart</span>
           </span>
         </Link>
       </div>
@@ -226,7 +226,7 @@ export const Login = () => {
 
               {/* Create account link */}
               <div className="mt-6 text-center text-xs">
-                <span className="text-gray-500">New to Amazon Marketplace? </span>
+                <span className="text-gray-500">New to VishalMart? </span>
                 <Link to="/register" className="text-amazon-blue hover:underline font-bold">
                   Create your account
                 </Link>
